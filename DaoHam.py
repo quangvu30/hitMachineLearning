@@ -12,9 +12,9 @@ def f_prime(x):
 
 # Chọn ngẫu nhiên giá trị ban đầu của x.
 x = 20
-# Chọn alpha vừa phải.
+# Chọn alpha.
 alpha = 0.01
-# Lặp 1000 lần.
+# Lặp 10000 lần.
 for _ in range(10000):
     x -= alpha * f_prime(x)
 print('Gia tri cua x : ', x)
